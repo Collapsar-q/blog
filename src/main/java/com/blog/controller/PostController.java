@@ -59,6 +59,7 @@ public class PostController {
         if (!article1.getUserId().equals(uid)){
             return RespResult.error("没有权限修改");
         }
+        article.setUserId(uid);
         article.setLastModified(new Date());
         int i = articleMapper.updateById(article);
         if (i<1){

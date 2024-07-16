@@ -1,0 +1,81 @@
+2024-07-16 22:31:09.294|WARN ||||||[main]|o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [refresh,632] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed
+2024-07-16 22:31:09.329|ERROR||||||[main]|o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.blog.utils.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.blog.utils.JwtUtil' in your configuration.
+
+2024-07-16 22:33:13.986|WARN ||||||[main]|o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [refresh,632] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed
+2024-07-16 22:33:14.016|ERROR||||||[main]|o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.blog.utils.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.blog.utils.JwtUtil' in your configuration.
+
+2024-07-16 22:34:52.949|WARN ||||||[main]|o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [refresh,632] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed
+2024-07-16 22:34:52.982|ERROR||||||[main]|o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.blog.utils.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.blog.utils.JwtUtil' in your configuration.
+
+2024-07-16 22:36:51.131|WARN ||||||[main]|o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [refresh,632] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed
+2024-07-16 22:36:51.161|ERROR||||||[main]|o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.blog.utils.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.blog.utils.JwtUtil' in your configuration.
+
+2024-07-16 22:37:39.069|WARN ||||||[main]|o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [refresh,632] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed
+2024-07-16 22:37:39.100|ERROR||||||[main]|o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.blog.utils.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.blog.utils.JwtUtil' in your configuration.
+
+2024-07-16 22:40:26.132|WARN ||||||[http-nio-8000-exec-2]|o.s.w.s.m.s.DefaultHandlerExceptionResolver - [logException,247] - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]

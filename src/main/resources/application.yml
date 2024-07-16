@@ -1,0 +1,32 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /api
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+spring:
+  application:
+    name: blog
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/blog?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password:
+blog:
+  config:
+    password-salt: sfeawrfasdfb3wh4bb3rBHEWRFSZEFBZ
+jwt:
+  secret: 9a5d44d66f1e4f50bd5d6017e6c04e58
+# ??logback.xml???????
+logging:
+  config: classpath:logback.xml
+  level:
+    com.blog.controller: debug
+    com.blog.mapper: debug

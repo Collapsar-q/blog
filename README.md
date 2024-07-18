@@ -6,6 +6,7 @@
 - ORM框架使用mybatis-plus
 - RESTful API设计
 - 用redis+jwt实现基本的身份认证机制
+- slf4j + logback做日志监控
 
 ## MySQL表结构设计
 1.用户表
